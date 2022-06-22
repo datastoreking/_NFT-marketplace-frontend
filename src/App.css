@@ -1,0 +1,100 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button:disabled {
+  cursor: not-allowed;
+  opacity: 0.6;
+}
+
+#custom-search-div{
+  width: 400px;
+}
+
+.custom-search{
+  display: flex;
+  justify-content: center;
+  background-color: var(--bg-section);
+  padding-top: 50px;
+}
+
+.hover-new-button{
+  width: 400px;
+}
+
+.hover-new-button:hover{
+  box-shadow: 0 0 20px var(--primary-color3);
+
+}
+.hover-new-button:hover{
+  color: white !important;
+}
+
+.custom-discord{
+  margin-top: 75px;
+}
+
+.tf-contact{
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.auction-image{
+  transition: all 0s !important;
+}
+
+.badges-main{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+
+}
+
+.details-badge{
+    padding: 10px;
+    border: 1px solid rgb(83, 215, 202);
+    border-radius: 10px;
+    height: max-content;
+    font-size: 12px;
+}
+
+.swiper-img{
+    width: 350px;
+}
